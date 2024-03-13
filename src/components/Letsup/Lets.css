@@ -1,0 +1,45 @@
+.letsup{
+    width: 1236px;
+    height: 703px;
+    border: 1px solid white;
+    margin: 0 auto;
+    display: block;
+    margin-top: 200px;
+    background-color: rgb(73, 70, 70);
+    h1{
+        text-align: center;
+        align-items: center;
+        color: grey;
+        margin-top: 40px;
+    }
+    input{
+        width: 90%;
+        height: 50px;
+        border-radius: 15px;
+        color: grey;
+        padding-left: 20px;
+        background: transparent;
+        border: 1px solid grey;
+
+        
+       
+        margin: 0 auto;
+        display: block;
+        margin-top: 25px;
+        
+
+
+    }
+    .input1{
+        width: 90%;
+        height: 120px;
+        border-radius: 15px;
+        color: grey;
+        padding-left: 20px;
+        background: transparent;
+        border: 1px solid grey;
+        margin: 0 auto;
+        display: block;
+        margin-top: 25px;
+    }
+}

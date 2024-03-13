@@ -1,0 +1,37 @@
+.wee{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    h1{
+        color: white;
+    }
+    p{
+        color: white;
+        width: 768px;
+        margin-top: 60px;
+        float: right;
+    }
+}
+.wee2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    h1{
+        color: white;
+        margin-left: 50px;
+    }
+    p{
+        color: white;
+        width: 768px;
+        margin-top: 60px;
+        float: right;
+    }
+
+}
+.us__abaut{
+    color:rgba(105, 219, 255, 1);
+    float: right;
+    margin-top: -26px;
+    margin-left: 20px;
+    
+}

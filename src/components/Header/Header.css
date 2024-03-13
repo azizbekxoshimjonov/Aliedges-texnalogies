@@ -1,0 +1,58 @@
+header{
+    padding: 20px 0;
+}
+.header__hero{
+    background: rgba(200, 208, 200, 1);
+}
+.Nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Nav__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Nav__item{
+    margin-right: 60px;
+    color:#052E4B;
+ 
+}
+.Ali{
+    color: black;
+    margin-top: 20px;
+    float: right;
+   span{
+    color: gray;
+   }
+}
+a{
+    color: #052E4B;
+}
+.Title{
+    margin-top: 100px;
+    text-align: center;
+    align-items: center;
+    span{
+        color: #052E4B;
+    }
+}
+.des{
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.btn1{
+    width: 200px;
+    height: 50px;
+    background-color: #052E4B;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 25px;
+    
+}
+
