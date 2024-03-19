@@ -1,6 +1,7 @@
 import React from 'react';
-import './Header.css';
+import './Header.scss';
 import logo from './assets/img/logo.svg'
+import { Link } from 'react-router-dom';
 
 
 
@@ -28,8 +29,20 @@ function Header() {
                 </h1>
               </a>
               <ul className='Nav__list'>
-                <li className='Nav__item'><a href="#">Home</a> </li>
-                <li className='Nav__item'><a href="#">Services</a></li>
+                <li className='Nav__item'>
+                 <Link to='/'>Home</Link>
+                   </li>
+                <li className='Nav__item'>
+                <Link to='/about'>About</Link> 
+                  </li>
+                <li className='Nav__item'>
+                <Link to='/contact'>Contact</Link>
+                  
+                   </li>
+                <li className='Nav__item'>
+                  <a href="#">Services</a>
+                  
+                  </li>
                 <li className='Nav__item'><a href="#">Technology</a></li>
                 <li className='Nav__item'><a href="#">Group Compnies</a></li>
                 <li className='Nav__item'><a href="#">About Us</a></li>

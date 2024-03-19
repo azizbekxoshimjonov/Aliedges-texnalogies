@@ -1,25 +1,21 @@
-import './App.css';
-import Header from './components/Header/Header';
-import Hero from './components/Hero/Hero';
-import Group from './components/Group/Group';
-import Abaut from './components/Abaut/Abaut';
-import Lets from './components/Letsup/Lets';
-
-
-
-
-
+import './App.scss';
+import Footer from './components/Footer/Footer';
+import About from './pages/About/About';
+import Contact from './pages/Contact/Contact';
+import Home from './pages/Home/Home'
+import {Route, Routes} from 'react-router-dom'
 function App() {
   return (
-
     <div className='App' >
-    
-    
-      <Header/>
-      <Hero/>
-      <Group/>
-      <Abaut/>
-      <Lets/>
+   
+      <Routes>
+        
+        <Route path='/' element={<Home/>}/>
+        <Route path='/About' element={<About/>}/>
+        <Route path='/Contact' element={<Contact/>}/>
+      </Routes>
+    <Footer/>
+         
         </div> 
         
      

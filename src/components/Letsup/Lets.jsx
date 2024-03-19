@@ -1,5 +1,5 @@
 import React from 'react'
-import './Lets.css'
+import './Lets.scss'
 
 function Lets() {
   return (

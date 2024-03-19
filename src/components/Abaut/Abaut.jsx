@@ -1,5 +1,5 @@
 import React from 'react'
-import './Abaut.css'
+import './Abaut.scss'
 import melek from './assets/img/melek.png'
 import vescode from './assets/img/vescode.png'
 

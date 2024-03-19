@@ -1,5 +1,5 @@
 import React from 'react'
-import './Group.css'
+import './Group.scss'
 import shap from './assets/img/shap.png'
 
 function Group() {

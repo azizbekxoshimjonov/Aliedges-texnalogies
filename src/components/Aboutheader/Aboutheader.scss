@@ -1,0 +1,36 @@
+.header__about{
+    background: rgba(200, 208, 200, 1); 
+}
+.about__header{
+    position: fixed;
+    width: 100%;
+}
+.Nav__about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Nav__about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about__item{
+    margin-right: 60px;
+    color:white;
+    a{
+        color: white;
+    }
+ 
+}
+.Ali{
+    color: black;
+    margin-top: 20px;
+    float: right;
+   span{
+    color: gray;
+   }
+}
+a{
+    color: #052E4B;
+}

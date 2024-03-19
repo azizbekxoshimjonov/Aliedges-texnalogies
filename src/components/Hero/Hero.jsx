@@ -1,5 +1,5 @@
 import React from 'react';
-import './Hero.css';
+import './Hero.scss';
 import pitichka from './assets/img/pitichka.png'
 import clock from './assets/img/clock.png'
 import hero from './assets/img/hero.png'
